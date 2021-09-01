@@ -1,0 +1,20 @@
+<div class = "post">
+<section>
+    <ol>
+        {{#each posts as |post|}}
+        <li>
+            <article class="post">
+              <div class="title">
+                  <a href="/post/{{post.id}}">{{post.title}}</a><span class="post-author">Posted by: {{post.user}}on {{format_date post.created_at}} </span>
+              </div>
+              <div class="post-body">
+                  <p>{{post.post_body}}</p>
+                  |
+                  <a href="/post/{{id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
+              </div>
+          </article>
+        </li>
+        {{/each}}
+    </ol>
+</section>
+</div>
