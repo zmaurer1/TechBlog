@@ -1,0 +1,97 @@
+.body {
+    background-color: blanchedalmond;
+}
+
+button {
+    background-color: darkorange;
+    border: 0;
+    padding: 1%;
+    color: black;
+    cursor: pointer;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+header {
+    border-bottom: 2px solid black;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: left;
+    background-color: darkorange;
+    padding: 0%;
+    height: 100px;
+    width: 100%;
+}
+header nav {
+    background-color:darkorange;
+    font-size: 18px;
+    padding-top: 10px;
+    align-items: left;
+}
+
+header nav a,
+header nav button {
+    margin-right: 20px;
+    padding: 5px;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 15px;
+    color: black;
+}
+
+#login-form,
+#signup-form,
+#new-post-form,
+#edit-post-form {
+    position: relative;
+    left: 450px;
+}
+
+#new-post-form div {
+    padding-top: 10px;
+}
+
+#new-post-form div label,
+#new-post-form div input {
+    padding-right: 20px;
+}
+
+#new-post-form div textarea {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+.create-post {
+    position: relative;
+    left: 450px;
+    margin-top: 10vh;
+}
+
+section h2 {
+    background-color: darkorange;
+    padding: 10px;
+    border-radius: 15px;
+    width: fit-content;
+}
+
+section ol {
+    list-style: none;
+}
+
+section ol li {
+    margin-bottom: 8vh;
+    background-color: darkorange;
+    padding: 10px;
+    border-radius: 15px;
+    width: 50vw;
+    position: relative;
+    left: 220px;
+}
+
+section ol li a {
+    color: black;
+}
+
+article div a {
+    color: black;
+}
