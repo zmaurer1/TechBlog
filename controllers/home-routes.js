@@ -28,11 +28,10 @@ router.get("/", (req,res) =>{
             post.get({
                 plain:true
             })
-        })
-        res.render("all-posts", {
-            posts
-            // loggedIn: req.sessions.loggedIn
-        })
+        });
+            res.render("all-posts", {
+                posts
+            })
     }).catch((err) => {
         res.status(500).json(err)
     })
